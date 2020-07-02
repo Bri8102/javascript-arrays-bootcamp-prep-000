@@ -12,4 +12,7 @@ function addElementToEndOfArray(array,element) {
   var newArray = [...array,element];
   return newArray;
 }
-function 
+function destructivelyAddElementToEndOfArray(array,element) {
+  array.push(element);
+  return array;
+}
